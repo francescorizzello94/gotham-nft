@@ -1,0 +1,74 @@
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: rgb(5, 27, 0);
+}
+
+header {
+  width: 100%;
+  height: 4em;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 200;
+  font-style: italic;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 1px rgb(8, 124, 33),
+  0 0 1px rgb(51, 143, 14),
+  0 0 2px #115c45,
+  0 0 3px #577956,
+  0 0 4px #173003,
+  0 0 5px #3e683c,
+  0 0 6px #71a80b;
+}
+
+#container {
+  margin: 0 auto;
+  width: fit-content;
+  position: relative;
+  border: 2px solid;
+  border-radius: 15px;
+  bottom: 2em;
+  box-shadow: 4px 6px 22px 1px;
+  background-color: rgb(1, 51, 16);
+}
+
+#NFT-Preview-Card {
+  width: 20em;
+  height: 30em;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url('images/nygma.jpg');
+  border-radius: 5px;
+  box-shadow: 4px 6px 22px 1px;
+}
+
+#description {
+  font-size: 11px;
+  text-align: center;
+  position: relative;
+  top: 2px;
+  bottom: 100px;
+  color:rgb(169, 193, 204);
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+footer {
+  color: rgb(197, 182, 182);
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: xx-small;
+}
