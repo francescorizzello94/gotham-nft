@@ -1,0 +1,75 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background: linear-gradient(90deg, rgb(28, 26, 53) 15%, rgba(1, 6, 29, 1) 54%, rgba(0, 6, 10, 1) 87%);
+}
+
+header {
+  width: 100%;
+  height: 4em;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#container {
+  color: rgb(126, 0, 158);
+  margin: 0 auto;
+  width: fit-content;
+  position: relative;
+  border: 2px solid;
+  border-radius: 15px;
+  bottom: 2em;
+  box-shadow: 4px 6px 22px 1px;
+  background-color: rgb(10, 10, 10);
+}
+
+#NFT-Preview-Card {
+  width: 21.75em;
+  height: 30em;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url('images/scarecrow_arkham.png');
+  border-radius: 5px;
+  box-shadow: 4px 6px 22px 1px;
+}
+
+#description {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  position: relative;
+  top: 2px;
+  bottom: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-right: 5px;
+  margin-left: 5px;
+  stroke: #ffa5d8;
+  stroke-width: 3;
+}
+
+footer {
+  color: rgb(197, 182, 182);
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: xx-small;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
