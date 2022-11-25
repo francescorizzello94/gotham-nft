@@ -21,5 +21,9 @@ The basic CSS template is applied to all elements in the collection and modified
 <h2> #2 Jervis Tetch </h2>
 <p align="center">
 <img src="https://user-images.githubusercontent.com/63818980/185710320-ceedcc6d-b349-4f01-8da2-ba6975089c1e.png">
+</p>
 
+<h2> #3 Scarecrow </h2>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63818980/204061155-3764607b-c659-44e8-bff3-7b328adfec1f.png">
 </p>
